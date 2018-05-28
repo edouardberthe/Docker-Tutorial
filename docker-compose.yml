@@ -3,7 +3,7 @@ services:
   web:
     image: edouardberthe/get-started:part2
     deploy:
-      replicas: 5
+      replicas: 25
       resources:
         limits:
           cpus: "0.1"
